@@ -2,7 +2,7 @@ name: {{ cookiecutter.project_name.replace("-", "_") }}
 description: {{ cookiecutter.project_description }}
 publish_to: 'none'
 
-version: 1.0.0+1
+version: 1.0.1+1
 
 environment:
   sdk: '>=3.1.5 <4.0.0'
