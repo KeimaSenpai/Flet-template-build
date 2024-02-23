@@ -1,5 +1,7 @@
-name: {{ cookiecutter.project_name.replace("-", "_") }}
-description: {{ cookiecutter.project_description }}
+name: 'XLink'
+# {{ cookiecutter.project_name.replace("-", "_") }}
+description: 'App de descarga de archivos'
+# {{ cookiecutter.project_description }}
 publish_to: 'none'
 
 version: 1.0.1+1
@@ -18,7 +20,7 @@ dependencies:
   #     path: src/serious_python
   #     ref: 'd059aef'
 
-  flet: ^0.19.0
+  flet: ^0.20.0
   # flet:
   #   git:
   #     url: https://github.com/flet-dev/flet.git
